@@ -74,36 +74,8 @@ Classify transactions into Safe, Pending, or Fraud
 Store transaction results in MySQL database
 Update dashboard in real time using WebSocket
 Visualize fraud statistics using Power BI
-7. Project Structure
-fraud-detection-ml-system/
-│
-├── README.md
-├── requirements.txt
-├── .gitignore
-│
-├── src/
-│   ├── api.py
-│   ├── predictor.py
-│   ├── rule_engine.py
-│   └── database.py
-│
-├── notebooks/
-│   └── fraud_detection_training.ipynb
-│
-├── outputs/
-│   ├── feature_columns.json
-│   ├── validated_rules.json
-│   └── important_features.json
-│
-├── images/
-│   ├── dashboard.png
-│   ├── system_architecture.png
-│   ├── model_result.png
-│   └── powerbi_dashboard.png
-│
-└── docs/
-    └── project_summary.pdf
-8. Result
+
+7. Result
 
 The system can identify suspicious banking transactions by combining Machine Learning score and rule-based score. The final result is displayed on a real-time monitoring dashboard and stored in the database for further analysis.
 
