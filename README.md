@@ -79,7 +79,7 @@ Visualize fraud statistics using Power BI
 
 The system can identify suspicious banking transactions by combining Machine Learning score and rule-based score. The final result is displayed on a real-time monitoring dashboard and stored in the database for further analysis.
 
-9. Author
+8. Author
 
 Ngô Văn Khải
 Data Analyst
