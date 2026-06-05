@@ -51,19 +51,19 @@ Confusion Matrix
 The system follows this workflow:
 
 New Transaction
-        ↓
+        ->
 FastAPI Backend
-        ↓
+        ->
 Feature Engineering
-        ↓
+        ->
 Machine Learning Model
-        ↓
+        ->
 Rule-based Engine
-        ↓
+        ->
 Final Fraud Score
-        ↓
+        ->
 MySQL Database
-        ↓
+        ->
 Realtime Dashboard / Power BI
 6. Main Features
 Receive new banking transactions through API or form input
